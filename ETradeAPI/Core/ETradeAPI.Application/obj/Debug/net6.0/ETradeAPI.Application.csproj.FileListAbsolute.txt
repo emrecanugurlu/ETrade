@@ -1,0 +1,15 @@
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\bin\Debug\net6.0\ETradeAPI.Application.deps.json
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\bin\Debug\net6.0\ETradeAPI.Application.dll
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\bin\Debug\net6.0\ETradeAPI.Application.pdb
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\bin\Debug\net6.0\ETradeAPI.Domain.dll
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\bin\Debug\net6.0\ETradeAPI.Domain.pdb
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.csproj.AssemblyReference.cache
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.AssemblyInfoInputs.cache
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.AssemblyInfo.cs
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.csproj.CoreCompileInputs.cache
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.csproj.CopyComplete
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.dll
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\refint\ETradeAPI.Application.dll
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ETradeAPI.Application.pdb
+D:\ETrade\ETradeAPI\Core\ETradeAPI.Application\obj\Debug\net6.0\ref\ETradeAPI.Application.dll
