@@ -5,10 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETradeAPI.Application.Abstractions
+namespace ETradeAPI.Application.Repositories.AbstractProduct
 {
-    public interface IProductService
+    public interface IProductWriteRepository: IWriteRepository<Product>
     {
-        List<Product> GetProducts();
     }
 }

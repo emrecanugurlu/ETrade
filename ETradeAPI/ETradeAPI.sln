@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7964CA50-04B7-430C-A155-CE5B321F4959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Application", "Core\ETradeAPI.Application\ETradeAPI.Application.csproj", "{9BCE5D05-DD3A-4D4A-93EA-618C0375DFC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeAPI.Application", "Core\ETradeAPI.Application\ETradeAPI.Application.csproj", "{9BCE5D05-DD3A-4D4A-93EA-618C0375DFC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Domain", "Core\ETradeAPI.Domain\ETradeAPI.Domain.csproj", "{3C5F46B5-2199-4728-8EF3-D7FC36586D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeAPI.Domain", "Core\ETradeAPI.Domain\ETradeAPI.Domain.csproj", "{3C5F46B5-2199-4728-8EF3-D7FC36586D7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Infrastructure", "Infrastructure\ETradeAPI.Infrastructure\ETradeAPI.Infrastructure.csproj", "{31D2C15F-8D44-424B-949E-0CE3484D6DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeAPI.Infrastructure", "Infrastructure\ETradeAPI.Infrastructure\ETradeAPI.Infrastructure.csproj", "{31D2C15F-8D44-424B-949E-0CE3484D6DBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.Persistence", "Infrastructure\ETradeAPI.Persistence\ETradeAPI.Persistence.csproj", "{95D6B171-76DA-4943-BE57-08AA409B5ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeAPI.Persistence", "Infrastructure\ETradeAPI.Persistence\ETradeAPI.Persistence.csproj", "{95D6B171-76DA-4943-BE57-08AA409B5ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeAPI.API", "Presentation\ETradeAPI.API\ETradeAPI.API.csproj", "{94417B5B-776E-4ECE-9D41-EC8C0EA4B270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeAPI.API", "Presentation\ETradeAPI.API\ETradeAPI.API.csproj", "{94417B5B-776E-4ECE-9D41-EC8C0EA4B270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

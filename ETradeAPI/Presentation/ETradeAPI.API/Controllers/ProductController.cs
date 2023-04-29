@@ -1,6 +1,5 @@
-﻿using ETradeAPI.Application.Abstractions;
+﻿using ETradeAPI.Application.Repositories.AbstractProduct;
 using ETradeAPI.Domain.Entities;
-using ETradeAPI.Persistence.Concretes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,18 +9,63 @@ namespace ETradeAPI.API.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly IProductService _productService;
+        private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IProductReadRepository _productReadRepository;
 
-        public ProductController(IProductService productService)
+        public ProductController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
         {
-            _productService = productService;
+            _productWriteRepository = productWriteRepository;
+            _productReadRepository = productReadRepository;
         }
 
         [HttpGet]
         public IActionResult GetAllProduct()
         {
-            List<Product> s =_productService.GetProducts();
-            return Ok(s);
+            List<Product> products = new List<Product>()
+            {
+                new Product()
+                {
+                    Id = Guid.NewGuid(),
+                    Description = string.Empty,
+                    Name = string.Empty,
+                    CreatedDate = DateTime.Now,
+                    Price = 0,
+                    Stock = 13
+                },
+                new Product()
+                {
+                    Id = Guid.NewGuid(),
+                    Description = string.Empty,
+                    Name = string.Empty,
+                    CreatedDate = DateTime.Now,
+                    Price = 0,
+                    Stock = 13
+                },
+                new Product()
+                {
+                    Id = Guid.NewGuid(),
+                    Description = string.Empty,
+                    Name = string.Empty,
+                    CreatedDate = DateTime.Now,
+                    Price = 0,
+                    Stock = 13
+                }
+
+            };
+
+            _productWriteRepository.AddRangeAsync(products);
+            _productWriteRepository.SaveChangesAsync();
+
+            return Ok(products);
+        }
+
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProduct(string id) {
+
+            Product p = await _productReadRepository.GetByIdAsync(id);
+
+            return Ok(p);
         }
     }
 }

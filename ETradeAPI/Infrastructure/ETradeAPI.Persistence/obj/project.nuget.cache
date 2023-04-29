@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xRu4d7NkHHBdcy2SINTVVJVMNrIyN30SKuPx8OEYJYbk3ixFizEgBS8v+WcCic09X7rEp1gtov5jxJNUSi80KQ==",
+  "dgSpecHash": "WkuCjgzA5QBsVE4mra37hWrT33oRV1hLRQgZa08SiHaZb5WF7W1a4zlT6W/7QFB91DpdMhZdHTNXXUxTQEy1mg==",
   "success": true,
   "projectFilePath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj",
   "expectedPackageFiles": [
