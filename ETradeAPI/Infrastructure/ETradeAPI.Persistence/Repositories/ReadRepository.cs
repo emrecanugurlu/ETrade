@@ -22,14 +22,38 @@ namespace ETradeAPI.Persistence.Repositories
 
         public DbSet<TEntity> Table => _dbContext.Set<TEntity>();
 
-        public IQueryable<TEntity> GetAll() => Table;
+        public IQueryable<TEntity> GetAll(bool tracker = true) {
+            IQueryable<TEntity> query = Table.AsQueryable();
+            if (!tracker)
+                query = Table.AsNoTracking();
+            return query;
+        }
 
-        public async Task<TEntity> GetByIdAsync(string id)
-            => await Table.FindAsync(Guid.Parse(id));
+        public async Task<TEntity> GetByIdAsync(string id, bool tracker = true)
+        {
+            IQueryable<TEntity> query = Table.AsQueryable();
+            if (!tracker)
+                query = Table.AsNoTracking();
+            return await query.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
+        }
 
-        public async Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> expression) 
-            => await Table.FirstOrDefaultAsync(expression);
+        public async Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> expression, bool tracker = true)
+        {
+            IQueryable<TEntity> query = Table.AsQueryable();
+            if (!tracker)
+                query = Table.AsNoTracking();
+            TEntity? entity = await query.FirstOrDefaultAsync(expression);
+            return entity;
+        }
+            
 
-        public IQueryable<TEntity> GetWhere(Expression<Func<TEntity, bool>> expression) => Table.Where(expression);
+        public IQueryable<TEntity> GetWhere(Expression<Func<TEntity, bool>> expression, bool tracker = true)
+        {
+            IQueryable<TEntity> query = Table.AsQueryable();
+            if (!tracker)
+                query = Table.AsNoTracking();
+            return query.Where(expression);
+        }
+            
     }
 }

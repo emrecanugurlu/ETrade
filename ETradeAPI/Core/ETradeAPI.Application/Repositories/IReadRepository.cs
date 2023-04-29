@@ -10,9 +10,9 @@ namespace ETradeAPI.Application.Repositories
 {
     public interface IReadRepository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
-        IQueryable<TEntity> GetAll();
-        IQueryable<TEntity> GetWhere(Expression<Func<TEntity,bool>> expression);
-        Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> expression);
-        Task<TEntity> GetByIdAsync(string id);
+        IQueryable<TEntity> GetAll(bool tracker = true);
+        IQueryable<TEntity> GetWhere(Expression<Func<TEntity,bool>> expression, bool tracker = true);
+        Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> expression, bool tracker = true);
+        Task<TEntity> GetByIdAsync(string id, bool tracker = true);
     }
 }

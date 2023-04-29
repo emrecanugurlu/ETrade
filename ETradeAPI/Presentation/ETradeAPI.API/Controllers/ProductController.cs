@@ -19,44 +19,50 @@ namespace ETradeAPI.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllProduct()
+        public async Task GetAllProduct()
         {
-            List<Product> products = new List<Product>()
-            {
-                new Product()
-                {
-                    Id = Guid.NewGuid(),
-                    Description = string.Empty,
-                    Name = string.Empty,
-                    CreatedDate = DateTime.Now,
-                    Price = 0,
-                    Stock = 13
-                },
-                new Product()
-                {
-                    Id = Guid.NewGuid(),
-                    Description = string.Empty,
-                    Name = string.Empty,
-                    CreatedDate = DateTime.Now,
-                    Price = 0,
-                    Stock = 13
-                },
-                new Product()
-                {
-                    Id = Guid.NewGuid(),
-                    Description = string.Empty,
-                    Name = string.Empty,
-                    CreatedDate = DateTime.Now,
-                    Price = 0,
-                    Stock = 13
-                }
+            //List<Product> products = new List<Product>()
+            //{
+            //    new Product()
+            //    {
+            //        Id = Guid.NewGuid(),
+            //        Description = string.Empty,
+            //        Name = string.Empty,
+            //        CreatedDate = DateTime.Now,
+            //        Price = 0,
+            //        Stock = 13
+            //    },
+            //    new Product()
+            //    {
+            //        Id = Guid.NewGuid(),
+            //        Description = string.Empty,
+            //        Name = string.Empty,
+            //        CreatedDate = DateTime.Now,
+            //        Price = 0,
+            //        Stock = 13
+            //    },
+            //    new Product()
+            //    {
+            //        Id = Guid.NewGuid(),
+            //        Description = string.Empty,
+            //        Name = string.Empty,
+            //        CreatedDate = DateTime.Now,
+            //        Price = 0,
+            //        Stock = 13
+            //    }
 
-            };
+            //};
 
-            _productWriteRepository.AddRangeAsync(products);
-            _productWriteRepository.SaveChangesAsync();
+            //_productWriteRepository.AddRangeAsync(products);
+            //_productWriteRepository.SaveChangesAsync();
 
-            return Ok(products);
+            //return Ok(products);
+
+            Product pr = await _productReadRepository.GetByIdAsync("2CF47838-E60C-40FD-94FB-0E591B7BE615",tracker:false);
+            pr.Name = "Ali";
+            await _productWriteRepository.SaveChangesAsync();
+            
+
         }
 
 
@@ -67,5 +73,8 @@ namespace ETradeAPI.API.Controllers
 
             return Ok(p);
         }
+
+
+        
     }
 }
