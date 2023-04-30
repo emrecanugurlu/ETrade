@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SlidebarComponent } from './slidebar/slidebar.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -13,7 +14,8 @@ import { SlidebarComponent } from './slidebar/slidebar.component';
     SlidebarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     HeaderComponent,
