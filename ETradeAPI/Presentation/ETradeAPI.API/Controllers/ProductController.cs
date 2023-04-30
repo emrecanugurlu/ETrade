@@ -21,60 +21,13 @@ namespace ETradeAPI.API.Controllers
         [HttpGet]
         public async Task GetAllProduct()
         {
-            //List<Product> products = new List<Product>()
-            //{
-            //    new Product()
-            //    {
-            //        Id = Guid.NewGuid(),
-            //        Description = string.Empty,
-            //        Name = string.Empty,
-            //        CreatedDate = DateTime.Now,
-            //        Price = 0,
-            //        Stock = 13
-            //    },
-            //    new Product()
-            //    {
-            //        Id = Guid.NewGuid(),
-            //        Description = string.Empty,
-            //        Name = string.Empty,
-            //        CreatedDate = DateTime.Now,
-            //        Price = 0,
-            //        Stock = 13
-            //    },
-            //    new Product()
-            //    {
-            //        Id = Guid.NewGuid(),
-            //        Description = string.Empty,
-            //        Name = string.Empty,
-            //        CreatedDate = DateTime.Now,
-            //        Price = 0,
-            //        Stock = 13
-            //    }
-
-            //};
-
-            //_productWriteRepository.AddRangeAsync(products);
-            //_productWriteRepository.SaveChangesAsync();
-
-            //return Ok(products);
-
-            Product pr = await _productReadRepository.GetByIdAsync("2CF47838-E60C-40FD-94FB-0E591B7BE615",tracker:false);
-            pr.Name = "Ali";
-            await _productWriteRepository.SaveChangesAsync();
+            //await _productWriteRepository.AddAsync(new Product() { Name = "Kemer",Stock = 12,Price = 130,Description = "Orjinal deri."});
             
 
+            _productWriteRepository.Update(new() { Id = Guid.Parse("86F54D98-9F8D-40FE-DD8A-08DB494BFC8D"),Name ="Kemer 2",Description = "123"});
+            await _productWriteRepository.SaveChangesAsync();
+
         }
-
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetProduct(string id) {
-
-            Product p = await _productReadRepository.GetByIdAsync(id);
-
-            return Ok(p);
-        }
-
-
-        
+   
     }
 }
