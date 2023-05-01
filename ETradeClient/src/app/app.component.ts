@@ -9,9 +9,9 @@ declare var $: any
 export class AppComponent {
   title = 'ETradeClient';
 
-  constructor(){
-    $(document).ready(function(){
-      alert("Merhaba Dünya!");
-    });
+  constructor() {
+    $.get("https://localhost:7120/api/product", function (data: string) {
+      console.log(data);
+    })
   }
 }

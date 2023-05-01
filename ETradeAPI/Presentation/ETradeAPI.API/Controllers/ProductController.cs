@@ -19,14 +19,9 @@ namespace ETradeAPI.API.Controllers
         }
 
         [HttpGet]
-        public async Task GetAllProduct()
+        public IActionResult Get()
         {
-            //await _productWriteRepository.AddAsync(new Product() { Name = "Kemer",Stock = 12,Price = 130,Description = "Orjinal deri."});
-            
-
-            _productWriteRepository.Update(new() { Id = Guid.Parse("86F54D98-9F8D-40FE-DD8A-08DB494BFC8D"),Name ="Kemer 2",Description = "123"});
-            await _productWriteRepository.SaveChangesAsync();
-
+            return Ok("Merhaba");
         }
    
     }
