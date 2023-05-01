@@ -1,14 +1,22 @@
-<ul>
-    <li>
-        <a routerLink="/admin">Dashboard</a>
-    </li>
-    <li>
-        <a routerLink="product">Products</a>
-    </li>
-    <li>
-        <a routerLink="order">Orders</a>
-    </li>
-    <li>
-        <a routerLink="customer">Customers</a>
-    </li>
-</ul>
+<mat-drawer-container class="example-container">
+  <mat-drawer class="drawer-menu" mode="side" opened>
+    <ul style="list-style-type: none;">
+      <li>
+        <a routerLink="/admin"><button mat-flat-button>Dashboard</button></a>
+      </li>
+      <li>
+        <a routerLink="customer"><button mat-flat-button>Customer</button></a>
+      </li>
+      <li>
+        <a routerLink="order"><button mat-flat-button>Order</button></a>
+      </li>
+      <li>
+        <a routerLink="product"><button mat-flat-button>Product</button></a>
+      </li>
+
+    </ul>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

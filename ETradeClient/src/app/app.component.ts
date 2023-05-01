@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare var $: any
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ETradeClient';
+
+  constructor(){
+    $(document).ready(function(){
+      alert("Merhaba Dünya!");
+    });
+  }
 }
