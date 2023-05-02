@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ETradeAPI.Persistence.Migrations
 {
     [DbContext(typeof(ETradeDbContext))]
-    [Migration("20230430071753_mig_2")]
-    partial class mig_2
+    [Migration("20230501140926_mig_1")]
+    partial class mig_1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -93,8 +93,8 @@ namespace ETradeAPI.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("Price")
-                        .HasColumnType("bigint");
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
 
                     b.Property<long>("Stock")
                         .HasColumnType("bigint");

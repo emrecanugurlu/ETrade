@@ -1,18 +1,19 @@
-﻿using ETradeAPI.Domain.Entities.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETradeAPI.Domain.Entities
+namespace ETradeAPI.Application.ViewModel
 {
-    public class Product: BaseEntity
+    public class ProductUpdateViewModel
     {
+        public string Id{ get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public uint Stock { get; set; }
         public float Price { get; set; }
-        public ICollection<Order> Orders{ get; set; }
+
+
     }
 }

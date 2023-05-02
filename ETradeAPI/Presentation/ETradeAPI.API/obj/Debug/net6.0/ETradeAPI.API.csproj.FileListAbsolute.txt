@@ -67,7 +67,6 @@ D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.Ge
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.AssemblyInfoInputs.cache
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.AssemblyInfo.cs
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.csproj.CoreCompileInputs.cache
-D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.MvcApplicationPartsAssemblyInfo.cs
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.MvcApplicationPartsAssemblyInfo.cache
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\staticwebassets\msbuild.ETradeAPI.API.Microsoft.AspNetCore.StaticWebAssets.props
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\staticwebassets\msbuild.build.ETradeAPI.API.props
@@ -97,3 +96,4 @@ D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extens
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.MvcApplicationPartsAssemblyInfo.cs
