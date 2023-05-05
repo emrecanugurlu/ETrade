@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ETradeAPI.Persistence.Migrations
 {
     [DbContext(typeof(ETradeDbContext))]
-    [Migration("20230501140926_mig_1")]
+    [Migration("20230505141332_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
@@ -96,8 +96,8 @@ namespace ETradeAPI.Persistence.Migrations
                     b.Property<float>("Price")
                         .HasColumnType("real");
 
-                    b.Property<long>("Stock")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");

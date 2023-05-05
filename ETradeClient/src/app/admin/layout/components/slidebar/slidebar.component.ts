@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
+import { MatDrawer } from '@angular/material/sidenav';
 
 
 @Component({
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
   templateUrl: './slidebar.component.html',
   styleUrls: ['./slidebar.component.scss']
 })
-export class SlidebarComponent {
-
+export class SlidebarComponent  {
+  
+  @ViewChild("drawer") drawer : MatDrawer
+  
 }

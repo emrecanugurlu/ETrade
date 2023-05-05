@@ -1,0 +1,18 @@
+
+<mat-form-field class="example-full-width">
+    <mat-label>Product Name</mat-label>
+    <input matInput  #txtProductName >
+</mat-form-field>
+<mat-form-field class="example-full-width">
+    <mat-label>Product Description</mat-label>
+    <textarea matInput #txtProductDescription></textarea>
+  </mat-form-field>
+<mat-form-field class="example-full-width">
+    <mat-label>Stock</mat-label>
+    <input matInput  type = "number" #txtProductStock>
+</mat-form-field>
+<mat-form-field class="example-full-width">
+    <mat-label>Price</mat-label>
+    <input matInput  type ="number" #txtProductPrice>
+</mat-form-field>
+<button mat-flat-button color="primary" (click) = "createProduct(txtProductName,txtProductDescription,txtProductStock,txtProductPrice)">Create Product</button>
