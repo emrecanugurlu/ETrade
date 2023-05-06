@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WkuCjgzA5QBsVE4mra37hWrT33oRV1hLRQgZa08SiHaZb5WF7W1a4zlT6W/7QFB91DpdMhZdHTNXXUxTQEy1mg==",
+  "dgSpecHash": "eSkIeDnN5AP8749ArJwIDjPumA/Ig0VNnG3H3bW0IGGpMmrAUMZCJW/14uzvUtaNDa7VlOIAVJrkgSsGOJ7yqQ==",
   "success": true,
   "projectFilePath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Can\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Can\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

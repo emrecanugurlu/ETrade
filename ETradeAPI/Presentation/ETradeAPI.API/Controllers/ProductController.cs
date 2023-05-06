@@ -46,6 +46,10 @@ namespace ETradeAPI.API.Controllers
         public async Task Post(ProductCreateViewModel productCreateViewModel)
        
         {
+            if (ModelState.IsValid)
+            {
+                
+            }
             await _productWriteRepository.AddAsync(new() {
                 Name = productCreateViewModel.Name,
                 Description = productCreateViewModel.Description,

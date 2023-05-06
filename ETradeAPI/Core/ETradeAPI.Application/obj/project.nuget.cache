@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XMlFN96b1D8NAG+Ln3us+L8l6+zPb22Z/4L+xh7ePkhgodP9DbsOmvHBHzwJRrgZwmxVr1aYfMsJr34xtkKffA==",
+  "dgSpecHash": "HylYS9CpUkRSaOQWBlWR1mgpnr7ROqaddJUzgDpRxj+mACjW8W1yt3pMB/NbCz63WE6ijgKpjCIA1sx10nD8sw==",
   "success": true,
   "projectFilePath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Can\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",

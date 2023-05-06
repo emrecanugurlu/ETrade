@@ -97,3 +97,6 @@ D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extens
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\obj\Debug\net6.0\ETradeAPI.API.MvcApplicationPartsAssemblyInfo.cs
+D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\FluentValidation.dll
+D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\ETrade\ETradeAPI\Presentation\ETradeAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
