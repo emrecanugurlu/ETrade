@@ -7,6 +7,9 @@ import { CreateComponent } from './create/create.component';
 import { ListComponent } from './list/list.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -23,7 +26,10 @@ import { MatButtonModule } from '@angular/material/button';
     ]),
     MatSidenavModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatGridListModule
   ]
 })
 export class ProductModule { }

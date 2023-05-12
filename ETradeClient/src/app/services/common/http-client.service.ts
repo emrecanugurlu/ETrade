@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { UrlService } from '../url.service';
-import { Observable } from 'rxjs';
+import {generate, Observable} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,7 @@ export class HttpClientService {
     this.urlService = urlService
   }
 
-  private genarateUrl(requestParamaters: RequestParameters): string {
+  private generateUrl(requestParamaters: RequestParameters): string {
     var url
     if (requestParamaters.fullEndPoint) {
       url = requestParamaters.fullEndPoint
@@ -25,18 +25,25 @@ export class HttpClientService {
     return url;
   }
 
-  get<T>(requestParamaters: Partial<RequestParameters>): Observable<T> {
-    return this.httpClient.get<T>(this.genarateUrl(requestParamaters), { headers: requestParamaters.headers })
+  get<T>(requestParamaters: Partial<RequestParameters>,id?:string): Observable<T> {
+    var url : string;
+    if (id){
+      url = requestParamaters.queryString ?`${this.generateUrl(requestParamaters)}` + "/" + `${id}`+ "?" + requestParamaters.queryString : `${this.generateUrl(requestParamaters)}` + "/" + `${id}`
+    }else {
+      url = requestParamaters.queryString ?`${this.generateUrl(requestParamaters)}` + "?" + requestParamaters.queryString : this.generateUrl(requestParamaters)
+    }
+
+    return this.httpClient.get<T>(url, { headers: requestParamaters.headers })
   }
 
   post<T>(requestParamaters: Partial<RequestParameters>, body: Partial<T>): Observable<T> {
-    return this.httpClient.post<T>(this.genarateUrl(requestParamaters), body, { headers: requestParamaters.headers })
+    return this.httpClient.post<T>(this.generateUrl(requestParamaters), body, { headers: requestParamaters.headers })
   }
   put<T>(requestParamaters: Partial<RequestParameters>, body: Partial<T>): Observable<T> {
-    return this.httpClient.put<T>(this.genarateUrl(requestParamaters), body, { headers: requestParamaters.headers })
+    return this.httpClient.put<T>(this.generateUrl(requestParamaters), body, { headers: requestParamaters.headers })
   }
   delete<T>(requestParamaters: Partial<RequestParameters>, id: string): Observable<T> {
-    var url = `${this.genarateUrl(requestParamaters)}/${id}`
+    var url = `${this.generateUrl(requestParamaters)}/${id}`
     return this.httpClient.delete<T>(url, { headers: requestParamaters.headers })
   }
 }
@@ -44,6 +51,7 @@ export class HttpClientService {
 export class RequestParameters {
   controller?: string
   action?: string
+  queryString? : string
   differentBaseUrl?: string
   fullEndPoint?: string
   headers?: HttpHeaders

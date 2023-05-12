@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { ProductCreate } from '../../../../contracts/product-create';
-import { ProductServiceService } from '../../../../services/model/product-service.service';
+import {Component, EventEmitter, Output} from '@angular/core';
+import { ProductCreate } from '../../../../contracts/product_create';
+import {ProductService} from "../../../../services/model/product.service";
 
 
 @Component({
@@ -9,10 +9,12 @@ import { ProductServiceService } from '../../../../services/model/product-servic
   styleUrls: ['./create.component.scss']
 })
 export class CreateComponent {
-  productService: ProductServiceService
-  constructor(productService: ProductServiceService) {
+  productService: ProductService
+  constructor(productService: ProductService) {
     this.productService = productService
   }
+
+  @Output() createProductEvent : EventEmitter<any> = new EventEmitter<any>()
 
   createProduct(productName: HTMLInputElement, productDescription : HTMLTextAreaElement, productStock: HTMLInputElement, productPrice: HTMLInputElement) {
     console.log("tetiklendi")
@@ -21,6 +23,8 @@ export class CreateComponent {
     product.price = parseInt(productPrice.value)
     product.description = productDescription.value
     product.stock = parseFloat(productStock.value)
-    this.productService.CreateProduct(product)
+    this.productService.createProduct(product,() => {
+      this.createProductEvent.emit(product)
+    })
   }
 }

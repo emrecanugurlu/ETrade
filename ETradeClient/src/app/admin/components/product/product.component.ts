@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import { HttpClientService } from 'src/app/services/common/http-client.service';
-import { ProductServiceService } from '../../../services/model/product-service.service';
+import {ProductService} from "../../../services/model/product.service";
+import {ListComponent} from "./list/list.component";
+import {ProductCreate} from "../../../contracts/product_create";
+
 
 @Component({
   selector: 'app-product',
@@ -8,15 +11,19 @@ import { ProductServiceService } from '../../../services/model/product-service.s
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
-  constructor(productService: ProductServiceService) {
-    
-    
+  constructor(productService: ProductService) {
+  }
+
+  @ViewChild(ListComponent) listComponent : ListComponent
+  createProductEvent(product : ProductCreate){
+    console.log("Tetiklendi")
+      this.listComponent.getProducts()
   }
 
   ngOnInit(): void {
-    
+
   }
 
-  
+
 
 }

@@ -1,4 +1,5 @@
 ﻿using ETradeAPI.Application.Repositories.AbstractProduct;
+using ETradeAPI.Application.RequestParameters;
 using ETradeAPI.Application.ViewModel;
 using ETradeAPI.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -20,7 +21,7 @@ namespace ETradeAPI.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get([FromQuery] Pagination pagination)
         {
 
             //_productWriteRepository.AddAsync(new()
@@ -30,27 +31,45 @@ namespace ETradeAPI.API.Controllers
             //    Price = 12,
             //    Stock = 12,
             //});
-            _productWriteRepository.SaveChangesAsync();
+            //_productWriteRepository.SaveChangesAsync();
+            var totalCount = _productReadRepository.GetAll(tracker: false).Count();
+            var products = _productReadRepository.GetAll(tracker: false)
+                .Skip(pagination.Page * pagination.Size)
+                .Take(pagination.Size)
+                .Select(p => new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Description,
+                    p.Price,
+                    p.Stock,
+                    p.UpdatedDate,
+                    p.CreatedDate,
 
-            IQueryable<Product> products = _productReadRepository.GetAll(tracker:false);
-            return Ok(products);
+                }).ToList();
+
+            
+
+            return Ok(new {totalCount,products});
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(string id) {
+        public async Task<IActionResult> Get(string id)
+        {
             var product = await _productReadRepository.GetByIdAsync(id);
             return Ok(product);
         }
 
         [HttpPost]
         public async Task Post(ProductCreateViewModel productCreateViewModel)
-       
+
         {
             if (ModelState.IsValid)
             {
-                
+
             }
-            await _productWriteRepository.AddAsync(new() {
+            await _productWriteRepository.AddAsync(new()
+            {
                 Name = productCreateViewModel.Name,
                 Description = productCreateViewModel.Description,
                 Stock = productCreateViewModel.Stock,
