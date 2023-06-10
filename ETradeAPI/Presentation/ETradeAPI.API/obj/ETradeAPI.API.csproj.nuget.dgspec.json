@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj": {}
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj": {}
   },
   "projects": {
-    "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj": {
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
+        "projectUniqueName": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
         "projectName": "ETradeAPI.Application",
-        "projectPath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
+        "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
         "packagesPath": "C:\\Users\\Can\\.nuget\\packages\\",
-        "outputPath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\obj\\",
+        "outputPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Can\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj": {
-                "projectPath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj"
+              "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj": {
+                "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj"
               }
             }
           }
@@ -69,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj": {
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj",
+        "projectUniqueName": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj",
         "projectName": "ETradeAPI.Domain",
-        "projectPath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj",
+        "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\ETradeAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\Can\\.nuget\\packages\\",
-        "outputPath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\obj\\",
+        "outputPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Can\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,18 +124,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj": {
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj",
+        "projectUniqueName": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj",
         "projectName": "ETradeAPI.Persistence",
-        "projectPath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj",
+        "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj",
         "packagesPath": "C:\\Users\\Can\\.nuget\\packages\\",
-        "outputPath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\obj\\",
+        "outputPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Can\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj": {
-                "projectPath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj"
+              "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj": {
+                "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj"
               }
             }
           }
@@ -217,18 +217,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj": {
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj",
+        "projectUniqueName": "D:\\Software Project\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj",
         "projectName": "ETradeAPI.API",
-        "projectPath": "D:\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj",
+        "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\ETradeAPI.API.csproj",
         "packagesPath": "C:\\Users\\Can\\.nuget\\packages\\",
-        "outputPath": "D:\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\obj\\",
+        "outputPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Presentation\\ETradeAPI.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Can\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,14 +239,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj": {
-                "projectPath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj"
+              "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj": {
+                "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Persistence\\ETradeAPI.Persistence.csproj"
               }
             }
           }
@@ -295,7 +296,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

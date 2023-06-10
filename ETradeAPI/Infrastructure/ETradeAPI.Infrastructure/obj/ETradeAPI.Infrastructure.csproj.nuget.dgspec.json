@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj": {}
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj": {
+    "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj",
         "projectName": "ETradeAPI.Infrastructure",
-        "projectPath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj",
+        "projectPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Can\\.nuget\\packages\\",
-        "outputPath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\obj\\",
+        "outputPath": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Can\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Core",
+    "\\Core\\ETradeAPI.Application",
+    "\\Core\\ETradeAPI.Application\\RequestParameters",
+    "\\Presentation",
+    "\\Presentation\\ETradeAPI.API"
+  ],
+  "SelectedNode": "\\Core\\ETradeAPI.Application\\RequestParameters",
+  "PreviewInSolutionExplorer": false
+}

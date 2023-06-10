@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jVy+sLpzX7DT1vcvyxaVT1Io7DCPOVdNsilFfKQNXIFToHEwIjO7Dmv29pyUWESff1QmDypN/r8kd+rgDG0Lnw==",
+  "dgSpecHash": "GXnpUZKfiVth3BJKTW2zRMaNxz5UMAPTzC9yzu4vPREnB4BPUYzdVHZpqcjUlzkBcgKuqkP0QCmaUAJSpgx4zw==",
   "success": true,
-  "projectFilePath": "D:\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj",
+  "projectFilePath": "D:\\Software Project\\ETrade\\ETradeAPI\\Infrastructure\\ETradeAPI.Infrastructure\\ETradeAPI.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

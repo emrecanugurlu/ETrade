@@ -17,3 +17,22 @@ D:\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETrade
 D:\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ref\ETradeAPI.Persistence.dll
 D:\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Persistence.runtimeconfig.json
 D:\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.genruntimeconfig.cache
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Persistence.deps.json
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Persistence.runtimeconfig.json
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Persistence.dll
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Persistence.pdb
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Application.dll
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Domain.dll
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Application.pdb
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\bin\Debug\net6.0\ETradeAPI.Domain.pdb
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.csproj.AssemblyReference.cache
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.AssemblyInfoInputs.cache
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.AssemblyInfo.cs
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.csproj.CoreCompileInputs.cache
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.csproj.CopyComplete
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.dll
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\refint\ETradeAPI.Persistence.dll
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.pdb
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ETradeAPI.Persistence.genruntimeconfig.cache
+D:\Software Project\ETrade\ETradeAPI\Infrastructure\ETradeAPI.Persistence\obj\Debug\net6.0\ref\ETradeAPI.Persistence.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HylYS9CpUkRSaOQWBlWR1mgpnr7ROqaddJUzgDpRxj+mACjW8W1yt3pMB/NbCz63WE6ijgKpjCIA1sx10nD8sw==",
+  "dgSpecHash": "hY3DitzwjyeJX4wqb+lmmsCF5E4H+OmeVrVrMCY3qYRbcE/QaRuup/MwQGv2YxwmcE5BQjXgWxfvMjXwnaXoXQ==",
   "success": true,
-  "projectFilePath": "D:\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
+  "projectFilePath": "D:\\Software Project\\ETrade\\ETradeAPI\\Core\\ETradeAPI.Application\\ETradeAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Can\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Can\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
